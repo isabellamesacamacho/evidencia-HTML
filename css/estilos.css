@@ -1,0 +1,288 @@
+.header {
+  background-image: url('../images/banner1.jpg');
+  background-color: #f1f1f1;
+  width: 1520px;
+  height: 500px;
+}
+
+h1{
+  color: rgb(12, 1, 9);
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  
+}
+
+
+<!-- TABLA -->
+
+tr:nth-child(even){
+    background-color: #c771ad;
+}
+tr:nth-child(odd){
+    background-color: #efeff0;
+}
+th {
+    background-color: rgb(230, 138, 194);
+    color: rgb(0, 0, 0);
+}
+table, th, td {
+    border: 1px rgb(15, 15, 15) solid;
+    border-collapse: collapse;
+}
+table {
+    width: 50%
+}
+
+
+<!-- ================== TEXTOS ================== -->
+
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box.sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+body{
+  background: ;
+  font-family:"Constantia", serif;
+
+}
+.navbar navbar-expand-lg {
+  width: :880px;
+  max-width: 90%;
+  margin: 30px auto;
+
+}
+.secciones{
+  width: 100%;
+  background: #fff;
+}
+
+.secciones article{
+  padding: 30px;
+}
+
+.secciones article p{
+  text-align: justify;
+}
+
+
+h1 { font-size: 66px; font-weight: 600; line-height: 80px;}
+h2 { font-size: 48px; margin-bottom: 30px; }
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #0a0a0a;
+  line-height: 1.8;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+
+p2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: #0c0c0c;
+  line-height: 1.8;
+  margin-bottom: 0;
+  text-align: center;
+
+}
+
+p3 {
+  font-family: "Segoe IU", sans-serif;
+  font-size: 18px;
+  color: #0c0c0c;
+  line-height: 1.8;
+  margin-bottom: 0;
+  text-align: left;
+
+}
+
+
+a:hover{
+    text-decoration: none;
+}
+
+
+section {
+    padding: 120px 0;
+}
+
+.bg.light-grey { background-color: #ffffff ; }
+.bg-dark { background-color: #1a1a1a;}
+
+
+
+.topmargin-xs { margin-top: 15px;}
+.topmargin-sm { margin-top: 30px;}
+.topmargin-lg { margin-top: 60px; }
+
+<!-- BARRA DE NAVEGACION -->
+
+.btn {
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-light {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border: 2px solid #ffffff;
+
+}
+
+.btn i{ font-size: 114px; margin-left: 5px;}
+
+.text-dark { color: #af3535; }
+
+.navbar {
+    background-color: #fdfafa;
+    box-shadow: 0 2px 4px 0 rgba(243, 4, 171, 0.911);
+    min-height: 100px;
+  
+}
+  
+  .nav-link { color: #bb03a2; }
+  .nav-link:hover { color: #f80a9d; }
+
+  
+.logo-brand {
+    min-width: 70px;
+    max-width: 90px;
+}
+
+.navbar-toggler { font-size: 40px; }
+.navbar-toggler:focus { outline: none; }
+
+
+#hero {
+    background-image: url('../images/fondo.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #ffffff;
+}
+
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+
+}
+
+<!-- ================== CONTENIDO PORTAFOLIO ================== -->
+
+.portafolio-container {
+    position:relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.portafolio-container img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.portafolio-container:hover img {
+    -mox-transforms: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transition: scale(1.2);
+}
+
+.portafolio-details {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.portafolio-details h2{
+    margin-bottom: 0px;
+}
+
+.portafolio-details a h2, .portafolio-details a p {
+    color: #ffffff;
+}
+
+@media (max-width: 575.98px) {
+    h1 { font-size: 40px; line-height: normal;}
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+
+@media (min-width: 1200px) { ... }
+
+
+<!-- ================== ESTILOS CSS DEL FORMULARIO ================== -->
+
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  cursor: pointer;
+}
+
+btn-outline-primary { background-color: blue;}
+btn-outline-primary:hover { color: rgb(89, 89, 247);}
+
+* {box-sizing: border-box}
+
+    input[type=text], input[type=text] {
+      width: 100%;
+      padding: 15px;
+      margin: 15px 0 22px 0;
+      display: inline-block;
+      border: #080808;
+      background: #f1f1f1;
+      
+    }
+
+    input[type=text]:focus, input[type=text]:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+
+    hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+<!-- ================== FOOTER ================== -->
+
+#footer {
+  padding: 80px ;
+  text-align: left;
+  color: #ffffff;
+}
+
+#footer a {
+  color: #ffffff;
+}
+
+#footer a:hover {
+  color: #ffffff;
+}
+
+.footer .list-inline .list-inline-item {
+  padding: 10px 15px ;
+}
